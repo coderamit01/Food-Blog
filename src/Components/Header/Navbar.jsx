@@ -36,7 +36,7 @@ const Navbar = () => {
                         <MenuItem text="About Us" link="/about-us" />
                       </li>
                       <li className="active">
-                        <MenuItem text="Contact Us" link="/contact-us" />
+                        <MenuItem text="Contact Us" link="/contact" />
                       </li>
                     </ul>
                   </nav>
@@ -62,7 +62,7 @@ const Navbar = () => {
                 </a>
               </div>
               <div className="header-button">
-                <RedGreenBtn text="Contact Us" link="/contact-us" />
+                <RedGreenBtn text="Contact Us" link="/contact" />
               </div>
               <div className="header__hamburger d-xl-block my-auto">
                 <div className="sidebar__toggle">
