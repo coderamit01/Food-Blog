@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const RedGreenBtn = ({text}) => {
+const RedGreenBtn = ({text,link}) => {
   return (
     <>
-      <Link to="contact.html" className="theme-btn bg-red-2">{text}</Link>
+      <Link to={link} className="theme-btn bg-red-2">{text}</Link>
     </>
   );
 };

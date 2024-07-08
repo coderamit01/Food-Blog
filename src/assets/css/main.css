@@ -53,8 +53,9 @@ Version: 2.0.0
     font-size: 22px;
   }
 }
-.theme-btn i {
-  margin-right: 10px;
+.theme-btn i,
+.theme-btn svg {
+  margin-right: 5px;
   font-size: 24px;
 }
 .theme-btn::before {
@@ -1518,7 +1519,8 @@ input.main-search-input::placeholder {
   text-align: center;
   font-weight: 500;
 }
-.header-main .header-right .menu-cart .cart-icon i {
+.header-main .header-right .menu-cart .cart-icon i,
+.header-main .header-right .menu-cart .cart-icon svg {
   color: var(--theme2);
 }
 .header-main .header-right .menu-cart:hover .cart-box {
@@ -6637,6 +6639,12 @@ input.main-search-input::placeholder {
   content: "";
   background: var(--theme2);
   transition: 0.3s;
+}
+.error-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (min-width: 1400px) {
