@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/img/logo/logo.svg';
 import { Link } from 'react-router-dom';
+import RedGreenBtn from '../RedGreenBtn/RedGreenBtn';
 
 const Navbar = () => {
   return (
@@ -130,7 +131,7 @@ const Navbar = () => {
                 </a>
               </div>
               <div className="header-button">
-                <a href="contact.html" className="theme-btn bg-red-2">contact us</a>
+                <RedGreenBtn text="Contact Us" />
               </div>
               <div className="header__hamburger d-xl-block my-auto">
                 <div className="sidebar__toggle">
