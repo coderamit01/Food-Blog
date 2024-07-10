@@ -9,7 +9,7 @@ const AllRouters = createBrowserRouter([
   {
     path: "/",
     element: <LayOut />,
-    errorElement: <NotFound />,
+    // errorElement: <NotFound />,
     children: [
       {path: "/", element: <Home />},
       {path: "/contact", element: <Contact />}

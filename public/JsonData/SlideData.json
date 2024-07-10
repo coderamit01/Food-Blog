@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "subTitle": "crispy, every bite taste",
+    "title": "hot spicy chiken burger",
+    "offerTitle": "limited offer",
+    "price": 5,
+    "leftShape": "../../src/assets/img/hero/left-shape.png",
+    "chiliImg": "../../src/assets/img/hero/chilli.png",
+    "onionTomato": "../../src/assets/img/hero/onionTomato.png",
+    "burgerImg": "../../src/assets/img/hero/burger.png",
+    "burgerTextImg": "../../src/assets/img/hero/burger-text.png",
+    "bestDealImg": "../../src/assets/img/hero/bestDeal.png",
+    "bgImg": "../../src/assets/img/hero/hero-bg.jpg"
+  },
+  {
+    "id": 2,
+    "subTitle": "crispy, every bite taste",
+    "title": "hot spicy chiken burger",
+    "offerTitle": "limited offer",
+    "price": 5,
+    "leftShape": "../../src/assets/img/hero/left-shape.png",
+    "chiliImg": "../../src/assets/img/hero/chilli.png",
+    "onionTomato": "../../src/assets/img/hero/onionTomato.png",
+    "burgerImg": "../../src/assets/img/hero/burger.png",
+    "burgerTextImg": "../../src/assets/img/hero/burger-text.png",
+    "bestDealImg": "../../src/assets/img/hero/bestDeal.png",
+    "bgImg": "../../src/assets/img/hero/hero-bg-2.jpg"
+  },
+  {
+    "id": 3,
+    "subTitle": "crispy, every bite taste",
+    "title": "hot spicy chiken burger",
+    "offerTitle": "limited offer",
+    "price": 5,
+    "leftShape": "../../src/assets/img/hero/left-shape.png",
+    "chiliImg": "../../src/assets/img/hero/chilli.png",
+    "onionTomato": "../../src/assets/img/hero/onionTomato.png",
+    "burgerImg": "../../src/assets/img/hero/burger.png",
+    "burgerTextImg": "../../src/assets/img/hero/burger-text.png",
+    "bestDealImg": "../../src/assets/img/hero/bestDeal.png",
+    "bgImg": "../../src/assets/img/hero/hero-bg-3.jpg"
+  }
+]
