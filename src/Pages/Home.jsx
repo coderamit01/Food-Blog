@@ -4,6 +4,8 @@ import MiniOfferSection from '../Components/MiniOfferSection/MiniOfferSection';
 import Categories from '../Components/Categories/Categories';
 import ProductSection from '../Components/Product/ProductSection';
 import DealBanner from '../Components/DealBanner/DealBanner';
+import BlogSection from '../Components/BlogSection/BlogSection';
+import ChooseUsSection from '../Components/ChooseUsSection/ChooseUsSection';
 
 const Home = () => {
   return (
@@ -32,7 +34,16 @@ const Home = () => {
         </div>
       </section>
       <DealBanner />
-
+      <section className="news-section fix section-padding pt-5">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="wow fadeInUp">news & blog</span>
+            <h2 className="wow fadeInUp" data-wow-delay=".3s">update news & blog</h2>
+          </div>
+          <BlogSection />
+        </div>
+      </section>
+      <ChooseUsSection />
     </div>
   );
 };
