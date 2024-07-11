@@ -157,9 +157,10 @@ Version: 2.0.0
   color: var(--white);
   border-radius: 0;
   font-weight: 600;
-  padding: 16px 25px;
+  padding: 12px 20px;
 }
-.theme-btn.cart-btn i {
+.theme-btn.cart-btn i,
+.theme-btn.cart-btn svg {
   font-size: 16px;
   color: var(--white) !important;
 }
@@ -4736,10 +4737,12 @@ input.main-search-input::placeholder {
 .popular-dishes-items .dishes-image .product-icon li:hover {
   background-color: var(--theme2);
 }
-.popular-dishes-items .dishes-image .product-icon li:hover i {
+.popular-dishes-items .dishes-image .product-icon li:hover i,
+.popular-dishes-items .dishes-image .product-icon li:hover svg {
   color: var(--white);
 }
-.popular-dishes-items .dishes-image .product-icon li a i {
+.popular-dishes-items .dishes-image .product-icon li a i,
+.popular-dishes-items .dishes-image .product-icon li a svg {
   color: var(--theme2);
   font-size: 16px;
   transition: all 0.4s ease-in-out;
@@ -6118,7 +6121,8 @@ input.main-search-input::placeholder {
   transition: 0.4s ease-in-out;
   cursor: pointer;
 }
-.single-product-items-2 .product-image .product-icon li a i {
+.single-product-items-2 .product-image .product-icon li a i,
+.single-product-items-2 .product-image .product-icon li a svg {
   color: var(--theme2);
   font-size: 16px;
 }
@@ -7547,6 +7551,7 @@ input.main-search-input::placeholder {
   margin-bottom: 20px;
   font-size: 38px;
   font-weight: 700;
+  width: 60%;
 }
 .single-offer-items.style-3 .offer-image-2 {
   position: absolute;
@@ -12029,4 +12034,11 @@ p.sticky-label {
 }
 .footer-bottom.style-2 .footer-bottom-wrapper ul li a:hover .text-effect .effect-1 {
   top: -100%;
+}
+
+@media screen and (max-width: 392px) {
+  .single-offer-items.style-3 .offer-content h3 {
+    width: 70%;
+  }
+  
 }

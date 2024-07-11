@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "title": "Taste Burger 1",
+    "productImg": "../../src/assets/img/product-img/p1.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 12,
+    "category": "burger",
+    "categoryImg": "../../src/assets/img/category-img/burger.png"
+  },
+  {
+    "id": 2,
+    "title": "Taste Pizza 1",
+    "productImg": "../../src/assets/img/product-img/p2.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 8,
+    "category": "pizza",
+    "categoryImg": "../../src/assets/img/category-img/pizza.png"
+  },
+  {
+    "id": 3,
+    "title": "Taste Comboo 1",
+    "productImg": "../../src/assets/img/product-img/p3.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 10,
+    "category": "comboo",
+    "categoryImg": "../../src/assets/img/category-img/comboo.png"
+  },
+  {
+    "id": 4,
+    "title": "Taste Chicken 1",
+    "productImg": "../../src/assets/img/product-img/p4.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 10,
+    "category": "chicken",
+    "categoryImg": "../../src/assets/img/category-img/chicken.png"
+  },
+  {
+    "id": 5,
+    "title": "Taste Seafood 1",
+    "productImg": "../../src/assets/img/product-img/p5.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 13,
+    "category": "seafood",
+    "categoryImg": "../../src/assets/img/category-img/seafood.png"
+  },
+  {
+    "id": 6,
+    "title": "Taste Biryani 1",
+    "productImg": "../../src/assets/img/product-img/p6.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 18,
+    "category": "biryani",
+    "categoryImg": "../../src/assets/img/category-img/biryani.png"
+  },
+  {
+    "id": 7,
+    "title": "Taste Roll 1",
+    "productImg": "../../src/assets/img/product-img/p7.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 18,
+    "category": "roll",
+    "categoryImg": "../../src/assets/img/category-img/roll.png"
+  },
+  {
+    "id": 8,
+    "title": "Taste Burger 2",
+    "productImg": "../../src/assets/img/product-img/p1.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 12,
+    "category": "burger",
+    "categoryImg": "../../src/assets/img/category-img/burger.png"
+  },
+  {
+    "id": 9,
+    "title": "Taste Pizza 2",
+    "productImg": "../../src/assets/img/product-img/p2.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 8,
+    "category": "pizza",
+    "categoryImg": "../../src/assets/img/category-img/pizza.png"
+  },
+  {
+    "id": 10,
+    "title": "Taste Comboo 2",
+    "productImg": "../../src/assets/img/product-img/p3.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 10,
+    "category": "comboo",
+    "categoryImg": "../../src/assets/img/category-img/comboo.png"
+  },
+  {
+    "id": 11,
+    "title": "Taste Chicken 2",
+    "productImg": "../../src/assets/img/product-img/p4.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 10,
+    "category": "chicken",
+    "categoryImg": "../../src/assets/img/category-img/chicken.png"
+  },
+  {
+    "id": 12,
+    "title": "Taste Seafood 2",
+    "productImg": "../../src/assets/img/product-img/p5.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 13,
+    "category": "seafood",
+    "categoryImg": "../../src/assets/img/category-img/seafood.png"
+  },
+  {
+    "id": 13,
+    "title": "Taste Biryani 2",
+    "productImg": "../../src/assets/img/product-img/p6.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 18,
+    "category": "biryani",
+    "categoryImg": "../../src/assets/img/category-img/biryani.png"
+  },
+  {
+    "id": 14,
+    "title": "Taste Roll 2",
+    "productImg": "../../src/assets/img/product-img/p7.png",
+    "shortDesc": "There are many variations of passages of Lorem Ipsum available, but majority have suffered teration in some form, by injected humour, or randomised",
+    "price": 18,
+    "category": "roll",
+    "categoryImg": "../../src/assets/img/category-img/roll.png"
+  }
+]

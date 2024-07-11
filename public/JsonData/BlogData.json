@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "how to build and grow your business and marketing strategy",
+    "desc": "These agencies specialize leveraging various digital channels, such as social media",
+    "author": "amit",
+    "date": "June 25, 2024",
+    "img": "../../src/assets/img/blog/01.jpg",
+    "category": "food"
+  },
+  {
+    "id": 2,
+    "title": "how to build and grow your business and marketing strategy",
+    "desc": "These agencies specialize leveraging various digital channels, such as social media",
+    "author": "joy",
+    "date": "June 25, 2024",
+    "img": "../../src/assets/img/blog/02.jpg",
+    "category": "food"
+  },
+  {
+    "id": 3,
+    "title": "how to build and grow your business and marketing strategy",
+    "desc": "These agencies specialize leveraging various digital channels, such as social media",
+    "author": "shamim",
+    "date": "June 25, 2024",
+    "img": "../../src/assets/img/blog/03.jpg",
+    "category": "food"
+  }
+]

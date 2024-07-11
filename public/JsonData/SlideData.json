@@ -11,7 +11,7 @@
     "burgerImg": "../../src/assets/img/hero/burger.png",
     "burgerTextImg": "../../src/assets/img/hero/burger-text.png",
     "bestDealImg": "../../src/assets/img/hero/bestDeal.png",
-    "bgImg": "../../src/assets/img/hero/hero-bg.jpg"
+    "bgImg": "../../src/assets/img/hero/hero-bg-2.jpg"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
     "burgerImg": "../../src/assets/img/hero/burger.png",
     "burgerTextImg": "../../src/assets/img/hero/burger-text.png",
     "bestDealImg": "../../src/assets/img/hero/bestDeal.png",
-    "bgImg": "../../src/assets/img/hero/hero-bg-2.jpg"
+    "bgImg": "../../src/assets/img/hero/hero-bg.jpg"
   },
   {
     "id": 3,
