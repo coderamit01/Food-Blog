@@ -57,9 +57,9 @@ const Navbar = () => {
                     <RedGreenBtn text="Checkout" link="/checkout" />
                   </div>
                 </div>
-                <a href="shop-cart.html" className="cart-icon">
+                <Link to="/cart" className="cart-icon">
                   <FaBasketShopping />
-                </a>
+                </Link>
               </div>
               <div className="header-button">
                 <RedGreenBtn text="Contact Us" link="/contact" />

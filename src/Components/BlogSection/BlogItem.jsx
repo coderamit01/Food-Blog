@@ -9,7 +9,7 @@ const BlogItem = (props) => {
       <div className="news-image bg-cover" style={{backgroundImage: `url(${img})`}}></div>
       <div className="news-content">
         <h4>
-          <Link to="/single-blog">
+          <Link to={`/single-blog/${id}`}>
             {title}
           </Link>
         </h4>
@@ -26,7 +26,7 @@ const BlogItem = (props) => {
         <p>
           {desc}
         </p>
-        <ReadMoreBtn text="Read More" link="/single-blog" />
+        <ReadMoreBtn text="Read More" link={`/single-blog/${id}`} />
       </div>
     </div>
   );

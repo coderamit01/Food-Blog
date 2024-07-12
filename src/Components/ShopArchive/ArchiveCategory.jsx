@@ -1,36 +1,36 @@
 import React, { useEffect, useState } from 'react';
-import SingleCategory from './SingleCategory';
+import ArchiveCategoryItem from './ArchiveCategoryItem';
 
-const Categories = () => {
+const ArchiveCategory = () => {
   const categorieList = '../../../public/JsonData/ProductData.json';
   const [category, setCategory] = useState([]);
   useEffect(() => {
     fetch(categorieList)
     .then(res => res.json())
-    .then(data =>{ 
+    .then(data => {
       const uniqueCategories = {};
       data.forEach(item => {
-        if(!uniqueCategories[item.category]){
+        if (!uniqueCategories[item.category]) {
           uniqueCategories[item.category] = {
             category: item.category,
-            id: item.id,
-            categoryImg: item.categoryImg
-          };
+            id: item.id
+          }
         }
       });
       setCategory(Object.values(uniqueCategories))
     })
   },[])
   return (
-    <>
-    {
-      category.map(category => (
-        <SingleCategory key={category.id} category={category} />
-      ))
-    }
-      
-    </>
+    <ul>
+      {
+        category.map((category) => (
+          <li key={category.id}>
+            <ArchiveCategoryItem category={category} />
+          </li>
+        ))
+      }
+    </ul>
   );
 };
 
-export default Categories;
+export default ArchiveCategory;

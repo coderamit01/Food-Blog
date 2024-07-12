@@ -8,7 +8,7 @@ const SingleProduct = (props) => {
   return (
       <div className="popular-dishes-items">
         <div className="dishes-image">
-          <Link><img src={productImg} alt="Product Image" /></Link>
+          <Link to={`/single-product/${id}`}><img src={productImg} alt="Product Image" /></Link>
           <ul className="product-icon d-flex justify-content-center align-items-center">
             <li>
               <Link to="/cart"><FaRegHeart /></Link>
@@ -19,7 +19,7 @@ const SingleProduct = (props) => {
               </Link>
             </li>
             <li>
-              <Link to="/single-product"><FaExpand /></Link>
+              <Link to={`/single-product/${id}`}><FaExpand /></Link>
             </li>
           </ul>
         </div>
@@ -32,7 +32,7 @@ const SingleProduct = (props) => {
             <i className="fas fa-star"></i>
           </div>
           <h4>
-            <Link to="/single-product">{title}</Link>
+            <Link to={`/single-product/${id}`}>{title}</Link>
           </h4>
           <h5 className='mb-2'>Price ${price}</h5>
           <AddToCartBtn />

@@ -1,12 +1,8 @@
-/*
-Theme Name: Foodking
-Author: Modina Theme
-Author URI: https://themeforest.net/user/modinatheme/
-Description: Fast Food Restaurant Html
-Version: 2.0.0
-*/
 /*CSS Table Of Content Ends Here*/
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
+body {
+  scroll-behavior: smooth;
+}
 :root {
   --body: #fff;
   --black: #000;
@@ -7060,7 +7056,8 @@ input.main-search-input::placeholder {
 .product-details-wrapper .product-details-content .cart-wrp .shop-button .star-icon:hover {
   background-color: var(--theme);
 }
-.product-details-wrapper .product-details-content .cart-wrp .shop-button .star-icon:hover i {
+.product-details-wrapper .product-details-content .cart-wrp .shop-button .star-icon:hover i,
+.product-details-wrapper .product-details-content .cart-wrp .shop-button .star-icon:hover svg {
   color: var(--white);
 }
 .product-details-wrapper .product-details-content .shop-text {
@@ -7212,7 +7209,8 @@ input.main-search-input::placeholder {
   font-size: 16px;
   margin-left: 30px;
 }
-.product-details-wrapper .single-tab .review-items .admin-items .content .star i {
+.product-details-wrapper .single-tab .review-items .admin-items .content .star i,
+.product-details-wrapper .single-tab .review-items .admin-items .content .star svg {
   font-size: 16px;
   color: #ff9200;
 }
@@ -12034,6 +12032,28 @@ p.sticky-label {
 }
 .footer-bottom.style-2 .footer-bottom-wrapper ul li a:hover .text-effect .effect-1 {
   top: -100%;
+}
+
+@media screen and (max-width: 640px) {
+  .theme-btn.cart-btn {
+    padding: 8px 12px;
+  }
+  .popular-dishes-items {
+    padding: 15px;
+  } 
+}
+@media screen and (max-width: 768px) {
+  .breadcrumb-wrapper .page-heading {
+    padding: 30px 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .theme-btn.cart-btn {
+    padding: 8px 12px;
+  }
+  .popular-dishes-items {
+    padding: 15px;
+  } 
 }
 
 @media screen and (max-width: 392px) {
